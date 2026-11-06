@@ -4,25 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>D&H Strength</title>
 </head>
 
 <body>
     </header>
-    <nav>
-        <a href=""></a>
-        <div>
-            <a href="index.php">Hem</a>
-            <a href="sidor/gyms.php">Våra gym</a>
+    <a href="index.php" class="logo">D&H<span> STRENGTH</span></a>
+
+    <div class="navbar">
+        <nav>
+            <a href="index.php"><img src="images/D&H Strength Gym Emblem.png" alt="home"
+                    style="width:7vh; height:7vh; border-radius: 1vh"></a>
+            <a href=" sidor/gyms.php">Våra gym</a>
             <a href="sidor/medlemskap.php">Medlemskap</a>
             <a href="sidor/bokning.php">Boka</a>
-
-        </div>
-    </nav>
-    <div>
-        <a href="sidor/login.php">Logga in</a>
-        <a href="sidor/register.php">Registrera dig</a>
+            <a href="sidor/login.php">Logga in</a>
+            <a href="sidor/register.php">Registrera dig</a>
+        </nav>
     </div>
+    <br>
+
+
+
 
     </header>
 
@@ -30,15 +34,21 @@
 
         <div class="hero-content">
 
-            <p class="subtitle">WELCOME TO D&H STRENGTH</p>
-
-            <h1>
+            <img class="bild" src="images/Empty Modern Gym in Monochrome Lighting-1.png" alt="bild på gymmet">
+            <img class="bild" src="images/Moody Modern Strength Training Gym-2.png" alt="bild på gymmet">
+            <br> <br>
+            <h2>
                 YOUR TRAINING.<br>
                 YOUR<span>RULES.</span>
-            </h1>
-            <p class="description">
-                Tre gym. Ett medlemskap. Oändliga möjligheter. Hitta ditt nästa treäningspass hos D&H STRENGTH.
-            </p>
+            </h2>
+            <br> <br>
+            <div class="boxar">
+                <p class="description">
+                    Tre gym. <br> Ett medlemskap. <br> Oändliga möjligheter. <br> Hitta ditt nästa träningspass hos D&H
+                    STRENGTH.
+                </p>
+            </div>
+            <br> <br>
 
             <div>
                 <a href="sidor/medlemskap.php">Utforska medlemskap</a>
@@ -58,12 +68,12 @@
 
         <div>
             <article>
-                <h3>03 GYM</h3>
+                <h3>3 GYM</h3>
                 <p>Tre träningsanläggningar att välja mellan.</p>
             </article>
 
             <article>
-                <h3>01 MEDLEMSKAP</h3>
+                <h3>1 MEDLEMSKAP</h3>
                 <p>Ett medlemskap som ger tillgång till alla våra gym.</p>
             </article>
 
