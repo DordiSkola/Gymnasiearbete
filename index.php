@@ -30,64 +30,85 @@
 
     </header>
 
-    <section class="hero">
 
-        <div class="hero-content">
+    <div class="hero-content">
 
-            <img class="bild" src="images/Empty Modern Gym in Monochrome Lighting-1.png" alt="bild på gymmet">
-            <img class="bild" src="images/Moody Modern Strength Training Gym-2.png" alt="bild på gymmet">
-            <br> <br>
-            <h2>
-                YOUR TRAINING.<br>
-                YOUR<span>RULES.</span>
-            </h2>
-            <br> <br>
-            <div class="boxar">
-                <p class="description">
-                    Tre gym. <br> Ett medlemskap. <br> Oändliga möjligheter. <br> Hitta ditt nästa träningspass hos D&H
-                    STRENGTH.
-                </p>
-            </div>
-            <br> <br>
+        <img class="bild" src="images/Empty Modern Gym in Monochrome Lighting-1.png" alt="bild på gymmet">
+        <img class="bild" src="images/Moody Modern Strength Training Gym-2.png" alt="bild på gymmet">
+        <br> <br>
+        <h2>
+            YOUR TRAINING.<br>
+            YOUR <span> RULES.</span>
+        </h2>
 
-            <div>
-                <a href="sidor/medlemskap.php">Utforska medlemskap</a>
-                <a href="sidor/gyms.php">Upptäck våra gym</a>
-            </div>
+        <br><br>
 
+        <div class="boxar">
+            <p>
+                TRE gym. <br> ETT medlemskap. <br> OÄNDLIGA möjligheter. <br> Hitta ditt nästa träningspass hos D&H
+                STRENGTH.
+            </p>
+
+            <p class="stor">
+                <===== WHY D&H STRENGTH?=====>
+            </p>
+
+            <p>
+                TRE gym <br> TRE träningsanläggningar att välja mellan.
+            </p>
         </div>
+
+        <br><br>
+
+    </div>
+
+
+
+
+
+
+    <div class="länkar">
+        <a href="sidor/medlemskap.php" class="stor">UTFORSKA MEDLEMSKAP</a>
+        <br>
+        <a href="sidor/gyms.php" class="stor">UPPTÄCK VÅRA GYM</a>
+    </div>
 
     </section>
 
     <section>
 
-        <div>
-            <p>WHY D&H STRENGTH?</p>
+
+        <br><br>
+
+
+        <div class="h2fix">
             <h2>Mer än bara ett gym.</h2>
         </div>
 
-        <div>
-            <article>
-                <h3>3 GYM</h3>
-                <p>Tre träningsanläggningar att välja mellan.</p>
-            </article>
 
-            <article>
-                <h3>1 MEDLEMSKAP</h3>
-                <p>Ett medlemskap som ger tillgång till alla våra gym.</p>
-            </article>
 
-            <article>
-                <h3>DITT SCHEMA</h3>
-                <p>Boka dina träningstider enkelt online.</p>
-            </article>
+
+        <div class="boxar">
+            <div class="box">
+                <article>
+                    <h3>1 MEDLEMSKAP</h3>
+                    <p>Ett medlemskap som ger tillgång till alla våra gym.</p>
+                </article>
+            </div>
+            <div class="box">
+                <article>
+                    <h3>DITT SCHEMA</h3>
+                    <p>Boka dina träningstider enkelt online.</p>
+                </article>
+            </div>
         </div>
 
     </section>
-
+    <br><br><br><br>
     <footer>
         <a href="index.php">D&H<span>STRENGTH</span></a>
-        <p>&copy; <?php echo date("Y"); ?>D&H STRENGTH. Alla rättigheter förbehållna.</p>
+
+        <p>&copy; <?php echo date("Y"); ?> D&H STRENGTH. Alla rättigheter förbehållna.</p>
     </footer>
 
 </body>
