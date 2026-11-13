@@ -17,12 +17,12 @@
                 <a href=" gyms.php">Våra gym</a>
                 <a href="medlemskap.php">Medlemskap</a>
                 <a href="bokning.php">Boka</a>
-                <a href="login.php">Bli medlem</a>
+                <a href="medlemskap.php">Bli medlem</a>
             </nav>
         </div>
     </header>
     <br>
-    <h1 class="oswald">Våra Lokaler</h1>
+    <h1>Våra Lokaler</h1>
 
     <h2>Lokal 1</h2>
 

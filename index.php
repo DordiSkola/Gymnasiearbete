@@ -17,7 +17,7 @@
                 <a href=" sidor/gyms.php">Våra gym</a>
                 <a href="sidor/medlemskap.php">Medlemskap</a>
                 <a href="sidor/bokning.php">Boka</a>
-                <a href="sidor/login.php">Bli medlem</a>
+                <a href="sidor/medlemskap.php">Bli medlem</a>
             </nav>
         </div>
         <br>

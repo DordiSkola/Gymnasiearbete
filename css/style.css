@@ -6,11 +6,8 @@
     align-items: center;
 }
 
-.oswald {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
+h1 {
+    font-family: sans-serif;
 }
 
 body.index {
@@ -42,12 +39,13 @@ nav {
     width: 100%;
     gap: 3cqmax;
     margin-left: 2cqmax;
+    margin-right: 2cqmax;
 }
 
 nav a {
     justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1cqmax;
+    margin-right: 1cqmax;
 }
 
 nav a:nth-last-child(1) {
@@ -241,13 +239,75 @@ body.mskap {
     width: 100%;
     gap: 3cqmax;
     margin-left: 2cqmax;
-
+    margin-right: 2cqmax;
 }
 
 .mskap nav a {
     justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1cqmax;
+    margin-right: 1cqmax;
 }
+
+.mskap .delning {
+    min-height: 90vh;
+    background:
+        linear-gradient(rgba(16, 16, 16, 0.7), rgba(16, 16, 16, 0.75)),
+        url("/images/Realistisk.jpeg") center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.mskap .delning-innehall {
+    width: min(1100px, 100%);
+}
+
+.mskap .text {
+    margin: 0 0 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1vh;
+    width: stretch;
+}
+
+.mskap .medlemskap-boxar {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.mskap .medlems-box {
+    background: rgba(16, 16, 16, 0.85);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    transition: 0.2s ease, 0.2s ease;
+}
+
+.mskap .medlems-box:hover {
+    border-color: rgba(255, 255, 255, 0.9);
+}
+
+.mskap .medlems-box button {
+    padding: 1vh;
+    margin: 1vh;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 1vh;
+}
+
+.mskap .medlems-box button:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.mskap ul li {
+    list-style: none;
+    text-align: center;
+}
+
 
 /*reenter-jockey-bunch-thumb*/
