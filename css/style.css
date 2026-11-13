@@ -6,7 +6,15 @@
     align-items: center;
 }
 
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
 body.index {
+    background-color: #101010;
     background-image: url(../images/Bakgrundsbild.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,22 +24,24 @@ body.index {
 .navbar {
     display: flex;
     box-shadow: 2px 3px 5px black;
-    border-radius: 10px;
     height: 5cqmax;
-    width: 95%;
+    width: 100%;
     font-size: 1.5cqmax;
     margin: 0 auto;
     background-color: black;
 }
 
 .logo {
-    font-size: xx-large;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 1vh;
 }
 
 nav {
     display: flex;
     width: 100%;
-    gap: 15px;
+    gap: 3cqmax;
+    margin-left: 2cqmax;
 }
 
 nav a {
@@ -40,8 +50,9 @@ nav a {
     margin-right: 10px;
 }
 
-nav a:nth-last-child(2) {
+nav a:nth-last-child(1) {
     margin-left: auto;
+    margin-right: 2cqmax;
 }
 
 .index .subtitle {
@@ -136,6 +147,7 @@ footer {
 
 
 body.gyms {
+    background-color: #101010;
     background-image: url(../images/Bakgrundsbild.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,14 +211,43 @@ td {
 
 
 body.mskap {
+    background-color: #101010;
     background-image: url(../images/Bakgrundsbild.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 
+.mskap .boxar {
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.7);
+}
 
+.mskap .navbar {
+    display: flex;
+    box-shadow: 2px 3px 5px black;
+    height: 5cqmax;
+    width: 100%;
+    font-size: 1.5cqmax;
+    margin: 0 auto;
+    background-color: black;
+}
 
+.mskap nav a:nth-last-child(2) {
+    margin-left: auto;
+}
 
+.mskap nav {
+    display: flex;
+    width: 100%;
+    gap: 3cqmax;
+    margin-left: 2cqmax;
+
+}
+
+.mskap nav a {
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 /*reenter-jockey-bunch-thumb*/

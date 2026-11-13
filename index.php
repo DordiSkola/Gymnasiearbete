@@ -10,17 +10,14 @@
 
 <body class="index">
     <header>
-        <a href="index.php" class="logo">D&H<span> STRENGTH</span></a>
 
         <div class="navbar">
             <nav>
-                <a href="index.php"><img src="images/D&H Strength Gym Emblem.png" alt="home"
-                        style="width:7vh; height:7vh; border-radius: 1vh"></a>
+                <a href="index.php"><img src="images/D&H Strength Gym Emblem.png" alt="home" class="logo"></a>
                 <a href=" sidor/gyms.php">Våra gym</a>
                 <a href="sidor/medlemskap.php">Medlemskap</a>
                 <a href="sidor/bokning.php">Boka</a>
-                <a href="sidor/login.php">Logga in</a>
-                <a href="sidor/register.php">Registrera dig</a>
+                <a href="sidor/login.php">Bli medlem</a>
             </nav>
         </div>
         <br>
