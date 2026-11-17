@@ -17,8 +17,8 @@
                 <a href=" gyms.php">Våra gym</a>
                 <a href="medlemskap.php">Medlemskap</a>
                 <a href="bokning.php">Boka</a>
-                <a href="login.php">Logga in</a>
-                <a href="register.php">Registrera dig</a>
+                <a href="login.php" id="lbox">Logga in</a>
+                <a href="register.php" id="lbox">Registrera dig</a>
             </nav>
         </div>
     </header>

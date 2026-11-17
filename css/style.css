@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -38,8 +40,17 @@ body.index {
     height: 5cqmax;
     width: 100%;
     font-size: 1.5cqmax;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0 auto;
-    background-color: black;
+}
+
+.navbar a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .logo {
@@ -76,6 +87,16 @@ a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+#lbox {
+    background-color: white;
+    color: black;
+    width: 16vh;
+    height: 6vh;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
 }
 
 .index .bild {
@@ -154,7 +175,14 @@ footer {
     border-radius: 5px;
 }
 
-
+.index .startbild {
+    height: calc(100vh - 5cqmax);
+    width: 100%;
+    background-image: url("../images/D&H Strength Gym Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 

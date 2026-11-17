@@ -18,7 +18,7 @@
                 <a href="/sidor/gyms.php">Våra gym</a>
                 <a href="/sidor/medlemskap.php">Medlemskap</a>
                 <a href="/sidor/bokning.php">Boka</a>
-                <a href="/sidor/medlemskap.php">Bli medlem</a>
+                <a href="/sidor/medlemskap.php" id="lbox">Bli medlem</a>
             </nav>
         </div>
     </header>
@@ -35,28 +35,28 @@
                     </div>
 
                     <form class="bokningsval" id="bokningsform">
-                            <label for="gym">Välj gym</label>
-                            <select id="gym" name="gym" required>
-                                <option value="">Välj ett gym</option>
-                                <option value="Gym 1">Gym 1</option>
-                                <option value="Gym 2">Gym 2</option>
-                                <option value="Gym 3">Gym 3</option>
-                            </select>
+                        <label for="gym">Välj gym</label>
+                        <select id="gym" name="gym" required>
+                            <option value="">Välj ett gym</option>
+                            <option value="Gym 1">Gym 1</option>
+                            <option value="Gym 2">Gym 2</option>
+                            <option value="Gym 3">Gym 3</option>
+                        </select>
 
-                            <label for="datum">Välj datum</label>
-                            <input type="date" id="datum" name="datum" min="<?php echo date('Y-m-d'); ?>" required>
+                        <label for="datum">Välj datum</label>
+                        <input type="date" id="datum" name="datum" min="<?php echo date('Y-m-d'); ?>" required>
 
-                            <fieldset id="tider" hidden>
-                                <legend>Välj en tid</legend>
+                        <fieldset id="tider" hidden>
+                            <legend>Välj en tid</legend>
 
-                                <label><input type="radio" name="tid" value="09:00" required> 09:00</label>
-                                <label><input type="radio" name="tid" value="12:00"> 12:00</label>
-                                <label><input type="radio" name="tid" value="15:00"> 15:00</label>
-                                <label><input type="radio" name="tid" value="18:00"> 18:00</label>
-                            </fieldset>
+                            <label><input type="radio" name="tid" value="09:00" required> 09:00</label>
+                            <label><input type="radio" name="tid" value="12:00"> 12:00</label>
+                            <label><input type="radio" name="tid" value="15:00"> 15:00</label>
+                            <label><input type="radio" name="tid" value="18:00"> 18:00</label>
+                        </fieldset>
 
-                            <button type="submit">Bekräfta val</button>
-                            <p id="bokningsbekraftelse" aria-live="polite"></p>
+                        <button type="submit">Bekräfta val</button>
+                        <p id="bokningsbekraftelse" aria-live="polite"></p>
                     </form>
 
                 </div>

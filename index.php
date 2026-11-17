@@ -17,13 +17,13 @@
                 <a href=" sidor/gyms.php">Våra gym</a>
                 <a href="sidor/medlemskap.php">Medlemskap</a>
                 <a href="sidor/bokning.php">Boka</a>
-                <a href="sidor/medlemskap.php">Bli medlem</a>
+                <a href="sidor/medlemskap.php" id="lbox">Bli medlem</a>
             </nav>
         </div>
-        <br>
 
     </header>
 
+    <div class="startbild" role="img" aria-label="Gymmets startsida"></div>
 
 
     <div class="images">
