@@ -6,6 +6,20 @@
     align-items: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1 {
     font-family: sans-serif;
 }
@@ -144,6 +158,29 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body.gyms {
     background-color: #101010;
     background-image: url(../images/Bakgrundsbild.png);
@@ -199,6 +236,12 @@ td {
     padding-right: 50px;
     padding-left: 150px;
 }
+
+
+
+
+
+
 
 
 
@@ -286,6 +329,7 @@ body.mskap {
 
 .mskap .medlems-box:hover {
     border-color: rgba(255, 255, 255, 0.9);
+
 }
 
 .mskap .medlems-box button {
@@ -302,12 +346,48 @@ body.mskap {
 .mskap .medlems-box button:hover {
     background-color: #FFFFFF;
     color: black;
+    transition: 0.2s ease, 0.2s ease;
 }
 
 .mskap ul li {
     list-style: none;
     text-align: center;
 }
+
+.mskap .stor {
+    font-size: xx-large;
+    margin: 1cqmax;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*reenter-jockey-bunch-thumb*/

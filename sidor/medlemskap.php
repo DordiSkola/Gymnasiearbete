@@ -35,7 +35,7 @@
                 <div class="medlemskap-boxar">
                     <article class="medlems-box">
                         <h2>DAGSKORT</h2>
-                        <h2>99 kr</h2>
+                        <h2 class="stor">99 kr</h2>
                         <ul>
                             <li>Träna en dag</li>
                             <li>Tillgång till alla gym</li>
@@ -46,7 +46,7 @@
 
                     <article class="medlems-box">
                         <h2>MÅNADSKORT</h2>
-                        <h2>499 kr</h2>
+                        <h2 class="stor">499 kr/mån</h2>
                         <ul>
                             <li>Obegränsad träning</li>
                             <li>Tillgång till alla gym</li>
@@ -57,7 +57,7 @@
 
                     <article class="medlems-box">
                         <h2>ÅRSKORT</h2>
-                        <h2>4999 kr</h2>
+                        <h2 class="stor">4999 kr/år</h2>
                         <ul>
                             <li>Spara 1188kr</li>
                             <li>Obegränsad träning</li>
