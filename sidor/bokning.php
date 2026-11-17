@@ -21,58 +21,60 @@
                 <a href="/sidor/medlemskap.php">Bli medlem</a>
             </nav>
         </div>
-        <br>
-
     </header>
 
     <section class="val">
 
         <div class="delning">
             <div class="delning-innehall">
-                <div class="text">
-                    <h1>MEDLEMSKAP</h1>
-                    <p>Välj det medlemskap som passar dig</p>
+                <div class="hej">
+                    <div class="text">
+
+                        <h1><span>BOKA DIN TRÄNING</span></h1>
+                        <p>Enkel bokning av gym och tider</p>
+                    </div>
+
+                    <form class="bokningsval" id="bokningsform">
+                            <label for="gym">Välj gym</label>
+                            <select id="gym" name="gym" required>
+                                <option value="">Välj ett gym</option>
+                                <option value="Gym 1">Gym 1</option>
+                                <option value="Gym 2">Gym 2</option>
+                                <option value="Gym 3">Gym 3</option>
+                            </select>
+
+                            <label for="datum">Välj datum</label>
+                            <input type="date" id="datum" name="datum" min="<?php echo date('Y-m-d'); ?>" required>
+
+                            <fieldset id="tider" hidden>
+                                <legend>Välj en tid</legend>
+
+                                <label><input type="radio" name="tid" value="09:00" required> 09:00</label>
+                                <label><input type="radio" name="tid" value="12:00"> 12:00</label>
+                                <label><input type="radio" name="tid" value="15:00"> 15:00</label>
+                                <label><input type="radio" name="tid" value="18:00"> 18:00</label>
+                            </fieldset>
+
+                            <button type="submit">Bekräfta val</button>
+                            <p id="bokningsbekraftelse" aria-live="polite"></p>
+                    </form>
+
                 </div>
 
-                <div class="medlemskap-boxar">
-                    <article class="medlems-box">
-                        <h2>DAGSKORT</h2>
-                        <h2 class="stor">99 kr</h2>
-                        <ul>
-                            <li>Träna en dag</li>
-                            <li>Tillgång till alla gym</li>
-                            <li>Ingen bindningstid</li>
-                        </ul>
-                        <button>Köp dagskort</button>
-                    </article>
+                <img src="/images/Realistisk2.jpeg" alt="sidobild" class="real">
 
-                    <article class="medlems-box">
-                        <h2>MÅNADSKORT</h2>
-                        <h2 class="stor">499 kr/mån</h2>
-                        <ul>
-                            <li>Obegränsad träning</li>
-                            <li>Tillgång till alla gym</li>
-                            <li>Ingen bindningstid</li>
-                        </ul>
-                        <button>Bli medlem</button>
-                    </article>
-
-                    <article class="medlems-box">
-                        <h2>ÅRSKORT</h2>
-                        <h2 class="stor">4999 kr/år</h2>
-                        <ul>
-                            <li>Spara 1188kr</li>
-                            <li>Obegränsad träning</li>
-                            <li>Tillgång till alla gym</li>
-                            <li>Ingen bindningstid</li>
-                        </ul>
-                        <button>Bli medlem</button>
-                    </article>
-                </div>
             </div>
         </div>
 
     </section>
+
+    <footer>
+        <a href="index.php">D&H <span>STRENGTH</span></a>
+
+        <p>&copy;
+            <?php echo date("Y"); ?> D&H STRENGTH. Alla rättigheter förbehållna.
+        </p>
+    </footer>
 
 </body>
 

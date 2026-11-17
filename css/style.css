@@ -259,10 +259,6 @@ body.mskap {
     color: white;
 }
 
-.mskap .boxar {
-    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.7);
-}
-
 .mskap .navbar {
     display: flex;
     box-shadow: 2px 3px 5px black;
@@ -329,7 +325,6 @@ body.mskap {
 
 .mskap .medlems-box:hover {
     border-color: rgba(255, 255, 255, 0.9);
-
 }
 
 .mskap .medlems-box button {

@@ -1,6 +1,8 @@
 body {
+    margin: 0;
+    min-height: 100vh;
     background-color: #101010;
-    background-image: url(../images/Bakgrundsbild.png);
+    background-color: rgba(0, 0, 0, 1);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -11,12 +13,10 @@ body {
     align-items: center;
     box-shadow: 2px 3px 5px black;
     height: 5cqmax;
-    min-height: 10vh;
     width: 100%;
     font-size: 1.5cqmax;
     margin: 0 auto;
     background-color: black;
-
 }
 
 nav {
@@ -29,8 +29,6 @@ nav {
 }
 
 nav a {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     margin-left: 1cqmax;
     margin-right: 1cqmax;
@@ -59,4 +57,188 @@ h2 {
 
 h1 {
     font-size: xx-large;
+}
+
+.delning {
+    min-height: 90vh;
+    padding: 0;
+}
+
+.delning-innehall {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.text {
+    text-align: center;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1vh;
+    width: 100%;
+}
+
+.medlemskap-boxar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(0.75rem, 2vw, 2rem);
+}
+
+.medlems-box {
+    background: rgba(16, 16, 16, 0.85);
+    padding: clamp(1rem, 2vw, 2rem);
+    border-radius: 12px;
+    border: 2px solid transparent;
+    transition: 0.2s ease, 0.2s ease;
+    text-align: center;
+    min-width: 0;
+}
+
+.medlems-box button {
+    padding: 1vh;
+    margin: 1vh;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 1vh;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+}
+
+.stor {
+    font-size: xx-large;
+}
+
+.hej {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: clamp(1.5rem, 4vh, 3rem);
+    padding: clamp(1.5rem, 4vw, 4rem);
+}
+
+.delning-innehall>img {
+    display: block;
+    flex: 0 0 50%;
+    width: 50%;
+    height: 90vh;
+    min-width: 0;
+    object-fit: cover;
+}
+
+@media (max-width: 900px) {
+    .delning {
+        padding: 1.5rem;
+    }
+
+    .delning-innehall {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .delning-innehall>img {
+        flex: 0 1 auto;
+        width: min(100%, 600px);
+        height: auto;
+        max-height: 40vh;
+    }
+
+    .hej {
+        flex-basis: auto;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .medlemskap-boxar {
+        grid-template-columns: 1fr;
+    }
+}
+
+footer {
+    width: fill;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: large;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.real {
+    border-radius: 20vh;
+}
+
+
+
+.bokningsval {
+    display: grid;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 1.5rem;
+    color: white;
+    background: rgba(16, 16, 16, 0.85);
+    border-radius: 12px;
+}
+
+.bokningsval>label,
+.bokningsval legend {
+    font-weight: bold;
+    text-align: left;
+}
+
+.bokningsval select,
+.bokningsval input[type="date"] {
+    padding: 0.75rem;
+    font: inherit;
+    border: 0;
+    border-radius: 6px;
+}
+
+.bokningsval fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.bokningsval fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.bokningsval button {
+    padding: 0.75rem 1rem;
+    color: white;
+    background: #222;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#bokningsbekraftelse {
+    margin: 0;
 }
