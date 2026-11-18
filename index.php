@@ -22,9 +22,22 @@
         </div>
 
     </header>
+    <div class="split">
+        <div class="starttext">
 
-    <div class="startbild" role="img" aria-label="Gymmets startsida"></div>
+            <div class="h2box">
+                <h2 class="stor">WHY D&H STRENGTH?</h2>
+            </div>
+            <div class="boxar">
+                <p>TRE gym. <br> ETT medlemskap. <br> OÄNDLIGA möjligheter. <br> Hitta ditt nästa träningspass hos
+                    D&H STRENGTH.</p>
 
+                <p>TRE gym <br> TRE träningsanläggningar att välja mellan.</p>
+            </div>
+        </div>
+
+        <img src="../images/JordbävningPrideworkout.png" alt="khasan i gymmet" class="startbild">
+    </div>
 
     <div class="images">
         <img class="bild" src="images/Empty Modern Gym in Monochrome Lighting-1.png" alt="bild på gymmet">
@@ -38,20 +51,7 @@
 
     <br><br>
 
-    <div class="boxar">
-        <p>
-            TRE gym. <br> ETT medlemskap. <br> OÄNDLIGA möjligheter. <br> Hitta ditt nästa träningspass hos D&H
-            STRENGTH.
-        </p>
 
-        <p class="stor">
-            <===== WHY D&H STRENGTH?=====>
-        </p>
-
-        <p>
-            TRE gym <br> TRE träningsanläggningar att välja mellan.
-        </p>
-    </div>
 
     <br><br>
 

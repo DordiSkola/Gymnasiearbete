@@ -6,6 +6,9 @@
     box-sizing: border-box;
     text-align: center;
     align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.18vh;
+    line-height: 2cqmax;
 }
 
 
@@ -43,6 +46,7 @@ body.index {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0 auto;
+    background-color: black;
 }
 
 .navbar a {
@@ -51,11 +55,12 @@ body.index {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
+    line-height: 1.3cqmax;
 }
 
 .logo {
-    width: 10vh;
-    height: 10vh;
+    width: 5cqmax;
+    height: 5cqmax;
     border-radius: 1vh;
 }
 
@@ -92,9 +97,9 @@ a {
 #lbox {
     background-color: white;
     color: black;
-    width: 16vh;
-    height: 6vh;
-    border-radius: 2vh;
+    width: 8cqmax;
+    height: 3cqmax;
+    border-radius: 1cqmax;
     display: flex;
     justify-content: center;
 }
@@ -122,6 +127,16 @@ a {
     font-weight: bold;
     font-size: large;
     padding: 10px;
+}
+
+.index .h2box {
+    display: flex;
+    flex-direction: column;
+    background-color: #101010;
+    border-radius: 0.8cqmax;
+    height: 5.5cqmax;
+    justify-content: center;
+    align-items: center;
 }
 
 .index .länkar {
@@ -175,13 +190,56 @@ footer {
     border-radius: 5px;
 }
 
-.index .startbild {
-    height: calc(100vh - 5cqmax);
+.index .split {
+    display: flex;
+    align-items: center;
     width: 100%;
-    background-image: url("../images/D&H Strength Gym Logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 90vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.index .starttext {
+    flex: 0 0 50%;
+    min-width: 0;
+    padding: clamp(1.5rem, 4vw, 4rem);
+}
+
+.index .split>img {
+    display: block;
+    flex: 0 0 50%;
+    width: 50%;
+    height: 90vh;
+    min-width: 0;
+    object-fit: cover;
+}
+
+.index .startbild {
+    height: 90vh;
+    width: 50%;
+    border-radius: 5vh;
+}
+
+@media (max-width: 900px) {
+    .index .split {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1.5rem;
+    }
+
+    .index .starttext {
+        flex-basis: auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    .index .split>img,
+    .index .startbild {
+        flex: 0 1 auto;
+        width: 100%;
+        height: auto;
+        max-height: 50vh;
+        object-fit: cover;
+    }
 }
 
 
@@ -334,7 +392,7 @@ body.mskap {
     margin: 0 0 2rem;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 1vh;
-    width: stretch;
+    width: 100%;
 }
 
 .mskap .medlemskap-boxar {
