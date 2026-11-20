@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Lokaler | D&H Strength</title>
 </head>
 
@@ -13,8 +13,8 @@
 
         <div class="navbar">
             <nav>
-                <a href="/index.php"><img src="/images/D&H Strength Gym Emblem.png" alt="home" class="logo"></a>
-                <a href=" gyms.php">Våra gym</a>
+                <a href="../index.php"><img src="../images/D&H Strength Gym Emblem.png" alt="home" class="logo"></a>
+                <a href="gyms.php">Våra gym</a>
                 <a href="medlemskap.php">Medlemskap</a>
                 <a href="bokning.php">Boka</a>
                 <a href="medlemskap.php" id="lbox">Bli medlem</a>
@@ -27,9 +27,9 @@
     <h2>Lokal 1</h2>
 
     <div class="images">
-        <img class="bild" src="/images/Lokal1.1.jpeg" alt="bild 1.1">
-        <img class="bild" src="/images/Lokal1.2.jpeg" alt="bild 1.2">
-        <img class="bild" src="/images/Lokal1.3.jpeg" alt="bild 1.3">
+        <img class="bild" src="../images/Lokal1.1.jpeg" alt="bild 1.1">
+        <img class="bild" src="../images/Lokal1.2.jpeg" alt="bild 1.2">
+        <img class="bild" src="../images/Lokal1.3.jpeg" alt="bild 1.3">
     </div>
     <br>
 
@@ -58,9 +58,9 @@
     <h2>Lokal 2</h2>
 
     <div class="images">
-        <img class="bild" src="/images/Lokal2.1.jpeg" alt="bild 1.1">
-        <img class="bild" src="/images/Lokal2.2.jpeg" alt="bild 1.2">
-        <img class="bild" src="/images/Lokal2.3.jpeg" alt="bild 1.3">
+        <img class="bild" src="../images/Lokal2.1.jpeg" alt="bild 1.1">
+        <img class="bild" src="../images/Lokal2.2.jpeg" alt="bild 1.2">
+        <img class="bild" src="../images/Lokal2.3.jpeg" alt="bild 1.3">
     </div>
     <br>
 
@@ -88,9 +88,9 @@
     <h2>Lokal 3</h2>
 
     <div class="images">
-        <img class="bild" src="/images/Lokal3.1.jpeg" alt="bild 1.1">
-        <img class="bild" src="/images/Lokal3.2.jpeg" alt="bild 1.2">
-        <img class="bild" src="/images/Lokal3.3.jpeg" alt="bild 1.3">
+        <img class="bild" src="../images/Lokal3.1.jpeg" alt="bild 1.1">
+        <img class="bild" src="../images/Lokal3.2.jpeg" alt="bild 1.2">
+        <img class="bild" src="../images/Lokal3.3.jpeg" alt="bild 1.3">
     </div>
     <br>
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/bokning.css">
+    <link rel="stylesheet" href="../css/bokning.css">
     <title>Boka | D&H Strength</title>
 </head>
 
@@ -14,11 +14,11 @@
 
         <div class="navbar">
             <nav>
-                <a href="/index.php"><img src="/images/D&H Strength Gym Emblem.png" alt="home" class="logo"></a>
-                <a href="/sidor/gyms.php">Våra gym</a>
-                <a href="/sidor/medlemskap.php">Medlemskap</a>
-                <a href="/sidor/bokning.php">Boka</a>
-                <a href="/sidor/medlemskap.php" id="lbox">Bli medlem</a>
+                <a href="../index.php"><img src="../images/D&H Strength Gym Emblem.png" alt="home" class="logo"></a>
+                <a href="gyms.php">Våra gym</a>
+                <a href="medlemskap.php">Medlemskap</a>
+                <a href="bokning.php">Boka</a>
+                <a href="medlemskap.php" id="lbox">Bli medlem</a>
             </nav>
         </div>
     </header>
@@ -61,7 +61,7 @@
 
                 </div>
 
-                <img src="/images/Realistisk2.jpeg" alt="sidobild" class="real">
+                <img src="../images/Realistisk2.jpeg" alt="sidobild" class="real">
 
             </div>
         </div>
