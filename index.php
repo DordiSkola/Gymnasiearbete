@@ -49,11 +49,38 @@
         <br><br>
     </div>
 
-    <br><br><br><br>
+    <br><br>
+
+    <div class="smabild">
+        <div>
+            <img src="images/Dumbell.png" alt="">
+            <h3>Tre unika gym under samma tak</h3>
+        </div>
+
+        <p>|</p>
+        <div>
+            <img src="images/Kalender.png" alt="">
+            <h3>Träna när det passar dig</h3>
+        </div>
+
+        <p>|</p>
+
+        <div>
+            <img src="images/Trofe.png" alt="">
+            <h3>Modern utrustning</h3>
+        </div>
+
+        <p>|</p>
+        <div>
+            <img src="images/Team.png" alt="">
+            <h3>Ett starkare samhälle</h3>
+        </div>
+
+    </div>
 
     <div class="länkar">
         <div>
-            <h2>VÅRA GYM</h2>
+            <h1>VÅRA GYM</h1>
             <p>Olika gym. Samma mål - att göra dig starkare</p>
             <button><a href="sidor/gyms.php">Läs mer →</a></button>
         </div>
@@ -75,70 +102,55 @@
 
 
 
+    <div class="länkar medlemskap-sektion">
+        <div class="delning">
+            <div class="delning-innehall">
+                <div class="text">
+                    <h1>MEDLEMSKAP</h1>
+                    <p>Välj det medlemskap som passar dig</p>
+                    <button>Se alla medlemskap →</button>
+                </div>
 
+                <div class="medlemskap-boxar">
+                    <article class="medlems-box">
+                        <h2>DAGSKORT</h2>
+                        <h2 class="stor">99 kr</h2>
+                        <ul>
+                            <li>Träna en dag</li>
+                            <li>Ingen bindningstid</li>
+                        </ul>
+                        <button>Köp dagskort</button>
+                    </article>
 
+                    <article class="medlems-box">
+                        <h2>MÅNADSKORT</h2>
+                        <h2 class="stor">499 kr/mån</h2>
+                        <ul>
+                            <li>Obegränsad träning</li>
+                            <li>Ingen bindningstid</li>
+                        </ul>
+                        <button>Bli medlem</button>
+                    </article>
 
+                    <article class="medlems-box">
+                        <h2>ÅRSKORT</h2>
+                        <h2 class="stor">4999 kr/år</h2>
+                        <ul>
+                            <li>Spara 1188kr</li>
+                            <li>Obegränsad träning</li>
+                        </ul>
+                        <button>Bli medlem</button>
+                    </article>
+                </div>
+            </div>
+        </div>
 
-
-
-
-
-    <div class="images">
-        <img class="bild" src="images/Empty Modern Gym in Monochrome Lighting-1.png" alt="bild på gymmet">
-        <img class="bild" src="images/Moody Modern Strength Training Gym-2.png" alt="bild på gymmet">
     </div>
-    <br> <br>
-    <h2>
-        YOUR TRAINING.<br>
-        YOUR <span> RULES.</span>
-    </h2>
-
-    <br><br>
-
-
-
-    <br><br>
 
 
 
 
 
-
-
-
-
-    </section>
-
-    <section>
-
-
-        <br><br>
-
-
-        <div class="h2fix">
-            <h2>Mer än bara ett gym.</h2>
-        </div>
-
-
-
-
-        <div class="boxar">
-            <div class="box">
-                <article>
-                    <h3>1 MEDLEMSKAP</h3>
-                    <p>Ett medlemskap som ger tillgång till alla våra gym.</p>
-                </article>
-            </div>
-            <div class="box">
-                <article>
-                    <h3>DITT SCHEMA</h3>
-                    <p>Boka dina träningstider enkelt online.</p>
-                </article>
-            </div>
-        </div>
-
-    </section>
-    <br><br><br><br>
     <footer>
         <a href="index.php">D&H<span>STRENGTH</span></a>
 

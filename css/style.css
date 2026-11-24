@@ -32,6 +32,8 @@ h1 {
 body.index {
     background-color: #101010;
     background-image: url(../images/Bakgrundsbild.png);
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -235,6 +237,55 @@ a {
     margin: 0;
 }
 
+
+
+.index .medlemskap-sektion {
+    background-color: #101010;
+    height: auto;
+    display: block;
+    padding: clamp(1.5rem, 4vw, 4rem);
+}
+
+.index .medlemskap-sektion .text {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.index .medlemskap-sektion h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.index .medlemskap-sektion .delning-innehall {
+    display: grid;
+    grid-template-columns: minmax(180px, 1fr) minmax(0, 3fr);
+    align-items: stretch;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.index .medlemskap-boxar {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.index .medlems-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    padding: 10px;
+    background-color: rgba(117, 117, 117, 0.116);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
 .index .stor {
     font-size: xx-large;
 }
@@ -331,7 +382,7 @@ footer {
     z-index: 1;
     background: linear-gradient(to bottom,
             #000 0%,
-            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0.1) 30%,
             transparent 100%);
     pointer-events: none;
 }
@@ -368,9 +419,11 @@ footer {
 .index .länkar button {
     background-color: rgba(0, 0, 0, 0.7);
     border: 1px 1px 1px rgba(255, 255, 255, 0.5);
-    border-radius: 1cqmax;
-    width: 6cqmax;
+    border-radius: 0.5cqmax;
+    width: 10cqmax;
     height: 2cqmax;
+    color: white;
+    font-size: larger;
 }
 
 .index .länkar button:hover {
@@ -378,10 +431,39 @@ footer {
     cursor: pointer;
 }
 
-.index .länkar a {
-    font-size: larger;
-
+.index .medlemskap-sektion button {
+    width: auto;
+    max-width: 100%;
+    min-height: 44px;
+    height: auto;
+    padding: 0.65rem 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.3;
+    white-space: normal;
 }
+
+.index .smabild {
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5cqmax;
+    height: 5cqmax;
+    color: white;
+}
+
+.index .smabild img {
+    width: 5cqmax;
+    height: 5cqmax;
+}
+
+.index .smabild div {
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 @media (max-width: 900px) {
@@ -404,6 +486,14 @@ footer {
         height: auto;
         max-height: 50vh;
         object-fit: cover;
+    }
+
+    .index .medlemskap-sektion .delning-innehall {
+        grid-template-columns: 1fr;
+    }
+
+    .index .medlemskap-boxar {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -606,6 +696,47 @@ body.mskap {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body.login {}
 
 
 

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0 auto;
+}
+
+body.login {
+    min-height: 100vh;
+    background-color: #101010;
+    background-image: url(../images/Bakgrundsbild.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login .auth-container {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 5cqmax);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.login .auth-container > div {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+}
+
+.login .auth-container > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(2rem, 5vw, 5rem);
+}
+
+.navbar {
+    display: flex;
+    box-shadow: 2px 3px 5px black;
+    height: 5cqmax;
+    width: 100%;
+    font-size: 1.5cqmax;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.navbar a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.3cqmax;
+}
+
+.logo {
+    width: 5cqmax;
+    height: 5cqmax;
+    border-radius: 1vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 3cqmax;
+    margin-left: 2cqmax;
+    margin-right: 2cqmax;
+}
+
+nav a {
+    justify-content: space-between;
+    margin: 0 1cqmax;
+    margin-left: 5cqmax;
+    margin-right: 5cqmax;
+}
+
+nav a:first-child(1) {
+    justify-content: left;
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.7);
+    transform: translateY(-2px);
+    transition: 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#lbox {
+    background-color: white;
+    color: black;
+    width: 8cqmax;
+    height: 3cqmax;
+    border-radius: 1cqmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lbox:hover {
+    background-color: #d6d6d6;
+    border-color: #d6d6d6;
+    transform: translateY(-2px);
+}
+
+/* Image section */
+
+.login .auth-image {
+    flex: 1;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+        url('../images/gym-login.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+
+.login .auth-image h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+}
+
+/* Form section */
+
+.login .auth-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 700px) {
+    .login .auth-container {
+        flex-direction: column;
+    }
+
+    .login .auth-container > div {
+        flex: 1 0 auto;
+        width: 100%;
+        padding: 2rem 1.5rem;
+    }
+}
+
+.login .auth-form h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+}
+
+.login .auth-form label {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login .auth-form input {
+    padding: 14px;
+    background: #222;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+}
+
+.login .auth-form button {
+    margin-top: 30px;
+    padding: 15px;
+    background: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login .auth-form button:hover {
+    background: #ccc;
+}
+
+.login .auth-form a {
+    color: white;
+}
+
+footer {
+    width: fill;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: large;
+    border-radius: 5px;
+}
