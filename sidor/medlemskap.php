@@ -19,6 +19,8 @@
                 <a href="bokning.php">Boka</a>
                 <a href="login.php" id="lbox">Logga in</a>
                 <a href="register.php" id="lbox">Registrera dig</a>
+                <a href="profile.php"><img src="../images/ProfilLogo.png" alt="logotyp profil" class="profilLogo">
+
             </nav>
         </div>
     </header>

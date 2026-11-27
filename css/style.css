@@ -86,10 +86,9 @@ nav a:hover {
     transition: 0.3s ease;
 }
 
-nav a:nth-last-child(1) {
+nav a:nth-last-child(2) {
     margin-left: auto;
     margin-right: 2cqmax;
-    margin-right: 15cqmax;
 }
 
 .index .subtitle {
@@ -464,7 +463,12 @@ footer {
     flex-direction: row;
 }
 
-
+.index .profilLogo {
+    width: 5cqmax;
+    height: 5cqmax;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 @media (max-width: 900px) {
     .index .split {
@@ -578,6 +582,13 @@ td {
     padding-left: 150px;
 }
 
+.gyms .profilLogo {
+    width: 5cqmax;
+    height: 5cqmax;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 
 
@@ -610,7 +621,7 @@ body.mskap {
     background-color: black;
 }
 
-.mskap nav a:nth-last-child(2) {
+.mskap nav a:nth-last-child(3) {
     margin-left: auto;
 }
 
@@ -626,6 +637,13 @@ body.mskap {
     justify-content: space-between;
     margin-left: 1cqmax;
     margin-right: 1cqmax;
+}
+
+.mskap .profilLogo {
+    width: 5cqmax;
+    height: 5cqmax;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .mskap .delning {

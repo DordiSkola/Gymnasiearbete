@@ -18,6 +18,8 @@
                 <a href="medlemskap.php">Medlemskap</a>
                 <a href="bokning.php">Boka</a>
                 <a href="medlemskap.php" id="lbox">Bli medlem</a>
+                <a href="profile.php"><img src="../images/ProfilLogo.png" alt="logotyp profil" class="profilLogo">
+
             </nav>
         </div>
     </header>
