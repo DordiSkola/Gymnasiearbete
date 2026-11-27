@@ -73,7 +73,7 @@
     </section>
 
     <footer>
-        <a href="index.php">D&H<span>STRENGTH</span></a>
+        <a href="../index.php">D&H<span>STRENGTH</span></a>
 
         <p>&copy;
             <?php echo date("Y"); ?> D&H STRENGTH. Alla rättigheter förbehållna.

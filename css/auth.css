@@ -22,17 +22,17 @@ body.login {
     color: white;
 }
 
-.login .auth-container > div {
+.login .auth-container>div {
     flex: 1;
     min-width: 0;
     margin: 0;
 }
 
-.login .auth-container > div:first-child {
+.login .auth-container>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: clamp(2rem, 5vw, 5rem);
+    padding: clamp(0, 0, 0);
 }
 
 .navbar {
@@ -143,15 +143,27 @@ a {
     justify-content: center;
 }
 
-@media (max-width: 700px) {
-    .login .auth-container {
-        flex-direction: column;
-    }
+.login .auth-form form {
+    display: flex;
+    flex-direction: column;
+}
 
-    .login .auth-container > div {
+.login .auth-container>div:first-child {
+    flex: 0 0 45%;
+    box-sizing: border-box;
+}
+
+.login .auth-container>.auth-form {
+    flex: 0 0 60%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+
+    .login .auth-container>div:first-child,
+    .login .auth-container>.auth-form {
         flex: 1 0 auto;
         width: 100%;
-        padding: 2rem 1.5rem;
     }
 }
 
@@ -172,6 +184,7 @@ a {
     border: 1px solid #444;
     color: white;
     border-radius: 4px;
+    width: 25cqmax;
 }
 
 .login .auth-form button {
@@ -182,7 +195,7 @@ a {
     border: none;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .login .auth-form button:hover {
@@ -190,7 +203,20 @@ a {
 }
 
 .login .auth-form a {
-    color: white;
+    color: #ccc;
+    font-size: larger;
+}
+
+.login .gymbild {
+    width: 40cqmax;
+    height: 22cqmax;
+    border-radius: 2cqmax;
+    margin-top: 1cqmax;
+}
+
+.login div.auth-form a:hover {
+    color: ghostwhite;
+    transition: 0.3s ease;
 }
 
 footer {
@@ -198,4 +224,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.7);
     font-size: large;
     border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

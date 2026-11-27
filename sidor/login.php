@@ -32,6 +32,7 @@ require_once '../assets/config/db.php';
         <div>
             <h1>VÄLKOMMEN TILLBAKA</h1>
             <p>Your journey to Strength continues</p>
+            <img src="/images/GymBild.jpeg" alt="" class="gymbild">
         </div>
 
         <div class="auth-form">
@@ -51,7 +52,7 @@ require_once '../assets/config/db.php';
 
             </form>
 
-            <p>
+            <p><br>
                 Har inget konto?
                 <a href="register.php">Registrera</a>
             </p>
@@ -59,6 +60,13 @@ require_once '../assets/config/db.php';
         </div>
 
     </main>
+    <footer>
+        <a href="../index.php">D&H<span>STRENGTH</span></a>
+
+        <p>&copy;
+            <?php echo date("Y"); ?> D&H STRENGTH. Alla rättigheter förbehållna.
+        </p>
+    </footer>
 </body>
 
 </html>
